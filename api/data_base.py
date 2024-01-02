@@ -3,11 +3,11 @@ import pandas as pd
 import datetime as dt
 
 
-# total_stock = 6*24
-# interv = 600
-# mat = np.zeros((total_stock,2))
-# df_total = pd.DataFrame(['total'], index=['heure'])
-# df_total.to_csv('api/db/test.csv')
+total_stock = 6*24
+interv = 600
+mat = np.zeros((total_stock,2))
+df_total = pd.DataFrame(['total'], index=['heure'])
+#df_total.to_csv('api/db/test.csv')
 
 def init_db(page):
     # pour initier les bases de données
